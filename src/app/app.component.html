@@ -1,0 +1,14 @@
+<div id="toolbar">
+  <img id="logo_top_left" src="../assets/logo.png">
+  <div class='menu-container'>
+    <div class="menu">
+      <div class="menu-item"><a [routerLink]="['/']">Home</a></div>
+      <div class="menu-item"><a [routerLink]="['/directory']">Directory</a></div>
+    </div>
+  </div>
+</div>
+
+<!-- Main Page -->
+<div>
+    <router-outlet></router-outlet>
+</div>

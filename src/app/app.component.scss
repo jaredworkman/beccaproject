@@ -1,0 +1,39 @@
+a{text-decoration: none; color: #6297ff;}
+a:visited { text-decoration: none; color: #6297ff;}
+a:hover { text-decoration: none; color: #6297ff;}
+a:focus { text-decoration: none; color: #6297ff;}
+a:hover, a:active { text-decoration: none; color: #6297ff;}
+
+h1 {
+    color: #6297ff;
+}
+#toolbar{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.menu-container{
+    width: 100%;
+    display: flex;
+    float: right;
+    color: #6297ff;
+    font-size: 18px;
+    justify-content: flex-end;
+    padding: 10px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    float: right;
+    color: #6297ff;
+    font-size: 18px;
+    justify-content: flex-end;
+    padding: 10px;
+}
+#logo_top_left{
+    height: 28px;
+    width: 100px;
+    padding: 25px;
+}
+.menu-item{
+    padding:10px
+}
